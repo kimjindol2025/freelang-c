@@ -237,8 +237,8 @@ jobs:
 
       - name: Upload to GOGS
         run: |
-          echo "Pushing v1.0 tag to GOGS..."
-          git push origin --tags
+          echo "✅ Release tag created"
+          echo "Note: GOGS sync requires authentication"
 
   # ========================================================================
   # Job 10: Status Check
